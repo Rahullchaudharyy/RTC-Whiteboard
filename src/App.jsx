@@ -1,23 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Auth from './components/Auth'
 
 const App = () => {
-
-
   return (
-    <div
-      style={{
-        backgroundImage: `url(https://img.freepik.com/premium-vector/new-soft-pastel-blur-gradient-background_92086-57.jpg)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        minHeight: '100vh',
-      }}
-      className="flex justify-center items-center"
-    >
-      <div className='w-[90vmin] mb-[50vmin]  h-[120vmin] md:w-[100vmin] md:h-[60vmin] bg-red-300 flex items-center justify-center'>
-        
-      </div>
+    <div className='bg-no-repeat bg-center bg-cover bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzwSuhQCFMf-A88Ynl3on7TMDDyyzrASjiw&s)]'>
+      <Auth/>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
